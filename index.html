@@ -1,0 +1,156 @@
+<style>
+  
+  * { box-sizing: border-box; }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+	
+  .frame {
+    position: relative;
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+  }
+  
+  .bustelo {
+    width: 150px;
+    height: 185px;
+    background-color: hsl(49, 100%, 53%);
+    position: absolute;
+    right: 60px;
+    top: 150px;
+  }
+  
+  .brand {
+    padding: 12% 3%;
+    font-size: 34px;
+  }
+  
+  .red {
+    background-color: red;
+    height: 33%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+  }
+  
+  .cup {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(34,36,195,1) 50%);
+    background-size: 100% 40%;
+    border: 1px solid;
+    width: 50px;
+    height: 55px;
+    position: absolute;
+    right: 74px;
+    top: 95px;
+  }
+  
+  .cup2 {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(34,36,195,1) 50%);
+    background-size: 100% 40%;
+    border: 1px solid;
+    width: 50px;
+    height: 55px;
+    position: absolute;
+    right: 210px;
+    top: 280px;
+  }
+  .triangle2 {
+    background: red;
+    width: 90%;
+    height: 100%;
+    clip-path: polygon(0 0, 0% 100%, 100% 49%);
+  }
+  
+  .triangle2::after {
+    content: "★";
+    color: white;
+    font-size: 24px;
+    display: block;
+    transform: translate(7%, 31%);
+  }
+  .cup3 {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(34,36,195,1) 50%);
+    background-size: 100% 40%;
+    border: 1px solid;
+    width: 50px;
+    height: 55px;
+    position: absolute;
+    right: 210px;
+    top: 225px;
+  }
+  .triangle3 {
+    background: red;
+    width: 90%;
+    height: 100%;
+    clip-path: polygon(0 0, 0% 100%, 100% 49%);
+  }
+  
+  .triangle3::after {
+    content: "★";
+    color: white;
+    font-size: 24px;
+    display: block;
+    transform: translate(7%, 31%);
+  
+  }
+  .bigcup {
+  width: 150px;
+  height: 250px;
+  background-color: hsl(34, 100%, 53%);
+  position: absolute;
+  right: 50px;
+  top: -140px;
+  }
+  
+  .silver {
+    background-color: silver;
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+  }
+  
+   .lid {
+    background: brown;
+    background-size: 100% 30%;
+    border: 1px solid;
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    right: 110px;
+    top: -170px;
+
+</style>
+
+
+<div class="frame">
+	
+  <div class="bustelo">
+    <div class="brand">Café Bustelo</div>
+    <div class="red"></div>
+  </div>
+  
+  <div class="cup">
+		<div class="triangle"></div>
+  </div>
+  
+  <div class="cup2">
+    <div class="triangle2"></div>
+  </div>
+  
+  <div class="cup3">
+    <div class="triangle3"</div>
+  </div>
+  
+  <div class="bigcup">
+    <div class="silver"></div>
+  </div>
+  
+  <div class="lid">
+  </div>
