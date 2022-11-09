@@ -100,20 +100,23 @@
   
   }
   .bigcup {
+ clip-path: polygon(25% 0%, 75% 0%, 100% 12%, 81% 100%, 17% 100%, 0 15%);
   width: 150px;
-  height: 250px;
+  height: 130px;
   background-color: hsl(34, 100%, 53%);
   position: absolute;
-  right: 50px;
+  right: 60px;
   top: -140px;
   }
   
   .silver {
+    clip-path: polygon(17% 0, 82% 0, 100% 100%, 0 100%);
     background-color: silver;
-    height: 40%;
-    width: 100%;
+    width: 150px;
+    height: 120px;
     position: absolute;
-    bottom: 0px;
+    right: 60px;
+    top: -10px;
   }
   
    .lid {
@@ -123,16 +126,40 @@
     width: 20px;
     height: 30px;
     position: absolute;
-    right: 110px;
+    right: 125px;
     top: -170px;
-
+  }
+  
+  .bar1 {
+   clip-path: polygon(67% 0, 29% 50%, 70% 100%, 40% 100%, 0% 50%, 38% 0);
+   background: blue;
+   border: 3px solid;
+   width: 25px;
+   height: 40px;
+   position: absolute;
+   right: 40px;
+    top: 5px;
+  }
+  
+  .bar2 {
+   clip-path: polygon(67% 0, 29% 50%, 70% 100%, 40% 100%, 0% 50%, 38% 0);
+   background: blue;
+   border: 3px solid;
+   width: 25px;
+   height: 40px;
+   position: absolute;
+   right: 40px;
+    top: px;
+  }
+    
 </style>
 
 
 <div class="frame">
 	
   <div class="bustelo">
-    <div class="brand">Café Bustelo</div>
+    <div class="brand">Café Bustelo
+    </div>
     <div class="red"></div>
   </div>
   
@@ -148,9 +175,16 @@
     <div class="triangle3"</div>
   </div>
   
-  <div class="bigcup">
-    <div class="silver"></div>
-  </div>
+  <div class="bigcup"></div>
   
-  <div class="lid">
+  <div class="silver"></div>
+  
+  <div class="lid"></div>
+  
+  <div class="bar1"></div>
+  
+  <div class="bar2"></div>
+    
+  <div calss="table">
+    
   </div>
